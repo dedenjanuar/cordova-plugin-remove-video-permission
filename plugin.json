@@ -6,7 +6,10 @@
     "id": "cordova-plugin-remove-ad-permission",
     "platforms": [
       "android"
-    ]
+    ],
+    "hook": {
+      "before_plugin_add": "manifest-hook.js"
+    }
   },
   "repository": {
     "type": "git",
