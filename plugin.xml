@@ -20,7 +20,7 @@
     </engines>
   
     <platform name="android">
-        <hook type="after_prepare" src="hooks/android/manifest-hook.js"/>
+        <hook type="after_prepare" src="manifest-hook.js"/>
         <preference name="android-manifest/@xmlns:tools" value="http://schemas.android.com/tools" />
 
         <config-file target="AndroidManifest.xml" parent="/*">
