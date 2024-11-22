@@ -20,12 +20,6 @@
     </engines>
   
     <platform name="android">
-        <hook type="before_plugin_add" src="manifest-hook.js"/>
-        <preference name="android-manifest/@xmlns:tools" value="http://schemas.android.com/tools" />
-
-        <config-file target="AndroidManifest.xml" parent="/*">
-                <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" tools:node="remove"/>
-        </config-file>
 
     </platform>
 
