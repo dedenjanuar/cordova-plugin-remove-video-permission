@@ -19,7 +19,7 @@
     </engines>
   
     <platform name="android">
-        <config-file target="AndroidManifest.xml" parent="/manifest/uses-permission" delete="true">
+        <config-file target="AndroidManifest.xml" parent="/manifest" delete="true">
                 <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
         </config-file>
     </platform>
