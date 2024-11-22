@@ -3,8 +3,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
-
-    id="cordova-plugin-remove-ad-permission" version="1.0.1">
+        id="cordova-plugin-remove-ad-permission" version="1.0.1">
 
     <name>Mobile Ad Families Programs</name>
     <description>A Cordova plugin for the Construct Master Collection to implement advertisement compliance for applications in Google Play's Designed for Families programs.</description>
@@ -20,9 +19,6 @@
     </engines>
   
     <platform name="android">
-        <edit-config file="AndroidManifest.xml" target="/manifest" mode="merge">
-            <manifest xmlns:tools="http://schemas.android.com/tools" />
-        </edit-config>
         <config-file target="AndroidManifest.xml" parent="/*">
                 <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" tools:node="remove"/>
         </config-file>
